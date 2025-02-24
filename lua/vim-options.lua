@@ -11,7 +11,7 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.updatetime = 50
 vim.opt.undofile = true
-vim.opt.undodir = os.getenv("HOMEPATH") .. "/.vim/undodir"
+vim.opt.undodir = "$HOME/.vim/undodir"
 vim.opt.swapfile = false
 vim.opt.backup = false
 
