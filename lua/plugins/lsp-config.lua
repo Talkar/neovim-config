@@ -4,7 +4,8 @@ return {
 		config = function()
 			require("mason").setup({
         registries = {
-          "github:Crashdummyy/mason-registry"
+          "github:Crashdummyy/mason-registry",
+          "github:mason-org/mason-registry"
         }
       })
 		end,
@@ -13,7 +14,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "roslyn", "ts_ls" },
+				ensure_installed = { "lua_ls", "ts_ls" },
 			})
 		end,
 	},
